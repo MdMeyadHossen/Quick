@@ -61,18 +61,18 @@ header{
 }
 .b_h1{
     margin: 0;
-    font-size: 50px;
+    padding: 0 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 55px;
-    padding: 0 105px;
 }
 .b_h1 span{
     color: #008aff;
 }
 .b_p{
-    margin: 10px 0 20px;
-    line-height: 25px;
+    margin: 10px 0px 20px;
     padding: 0 10px;
+    line-height: 25px;
 }
 .b_img{
     margin: 0 auto;
@@ -87,7 +87,7 @@ header{
     padding-bottom: 60px;
 }
 .s_left{
-    width: 37%;
+    width: 42%;
     text-align: right;
     float: left;
 } 
@@ -102,14 +102,13 @@ header{
     line-height: 25px;
 }
 .s_right{
-    margin-top: -55px;
     width: 55%;
     text-align: left;
     float: right;
 }
 .s_right h1 {
-     margin: 50px;
-     font-size: 45px;
+     margin: 0;
+     font-size: 42px;
      font-weight: 700;
 }
 /*sccess end*/
@@ -118,9 +117,9 @@ header{
     padding-bottom: 60px;
 }
 .f_item{
-    margin: 19px;
+    margin-right: 1%;
     width: 28%;
-    padding: 50px 25px;
+    padding: 38px 2% 40px;
     float: left;
 }
 .f_item:first-child{
@@ -151,6 +150,7 @@ background-color: #008aff;
 padding: 25px 0;
 }
 footer p{
+    margin: 0 auto;
     text-align: center;
     color: #ffffff;
 }
